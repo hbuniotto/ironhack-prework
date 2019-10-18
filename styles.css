@@ -1,0 +1,248 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+nav {
+    background-color: #C12127;
+    color: white;
+    padding: 10px; /* padding all around */
+    height: 20px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+
+.top-links li {
+display: inline-block;
+margin: 0 5px;
+}
+
+.top-left {
+    display: inline /*overrides the div by allowing elements to be displayed on the same line*/
+}
+
+header {
+    background-image: url("images/city-scape.svg");
+    height: 450px;
+    background-size: cover;
+}
+
+#search-bar {
+    padding: 10px;
+    color: white;;
+}
+
+#search-bar input {
+    width: calc(100% - 350px);
+    height: 20px;
+    margin-left: 10px;
+    background: rgb(31, 82, 111);
+    padding: 10px;
+    vertical-align: top; /* set vertical alignment at top */
+    border: 1px solid white; /* adds border to search bar*/
+}
+
+#search-bar button {
+    background: rgb(31, 82, 111);
+    height: 42px;
+    margin-left: -6px;
+    vertical-align: top;
+    border: 1px solid rgba(255,255,255,0.8); /* adds border to button*/
+}
+
+#search-bar a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);;
+}
+
+#search-bar ul {
+    display: inline;
+    padding-left: 5px;
+}
+
+#search-bar ul li {
+    display: inline;
+
+}
+
+#npm-logo {
+    width: 100px;
+}
+
+#bear-logo {
+    width: 40px;
+}
+
+#header-section {
+    width: 850px;
+    margin: 0 auto;
+    color: rgba(255,255,255,0.8)
+}
+
+#header-section h4 {
+    font-size: 32px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#header-section p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#header-section button {
+    background-color: rgb(240, 146, 51);
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    border: 0;
+}
+
+#powerful-collaboration {
+    color: white;
+    background: rgb(39, 53, 71);
+}
+
+#section-2-header {
+    width: 850px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+#npm-orgs {
+    display: inline-block;
+    width: 390px;
+}
+
+#collaboration-image {
+    display: inline-block;
+    width: 450px;
+}
+
+#powerful-collaboration button {
+    background-color: rgb(203, 56, 55);
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    border: 0;
+}
+
+#powerful-collaboration img {
+    width: 400px;
+    display: inline;
+}
+
+#powerful-collaboration h4 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#powerful-collaboration ul {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 18px;
+    margin-bottom: 20px;
+}
+
+#powerful-collaboration a {
+    text-decoration: none;/*remove hyperlink */
+    color: white;;
+    font-weight: bold;
+}
+
+#what-is-npm {
+    background-image: url("images/forklift.svg");
+    background-size: cover;
+    height: 450px;
+    color: white;
+}
+
+#what-is-npm button {
+    background-color: rgb(49, 68, 88);
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    border: 0;
+}
+
+#what-is-npm h4 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#what-is-npm p {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#what-is-npm div {
+    width: 850px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+#building-blocks {
+    margin: 0 auto;
+    width: 950px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: rgb(135, 145, 156);
+    background: white
+}
+
+#main-header {
+    padding-bottom: 15px;
+}
+
+#main-header h4 { 
+    font-size: 32px;
+    color: rgb(83, 88, 98)
+}
+
+#main-header p { 
+    font-size: 14px;
+}
+
+.block-widget-standard { /*use period when it's a class */
+    display: inline-table;
+    width: 30%;
+}
+
+.block-widget-standard h4 {
+    color: rgb(83, 88, 98);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.block-widget-standard a {
+    text-decoration: none;
+    color: rgb(208, 74, 73);
+}
+
+
+
+
+
+
+
+
